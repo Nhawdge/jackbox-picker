@@ -41,7 +41,10 @@
   <div class="games">
     {#each filteredGames as game}
       <div class="game">
-        <img src={game.image || `//placehold.it/250?text=${game.name}`} />
+        <img
+          src={game.image || `//placehold.it/250?text=${game.name}`}
+          alt=""
+        />
         <h3>
           {game.name}
         </h3>
