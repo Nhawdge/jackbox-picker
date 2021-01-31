@@ -47,7 +47,7 @@
         "minplayers": 2,
         "maxplayers": 10,
         "description": "The runaway hit bluffing game with over 500 brand-new questions, more than 2x the original! Plus new features, like the deFIBrillator!",
-        "image": ""
+        "image": "/images/Fibbage2tile.jpg"
       },
       {
         "name": "Earwax",
@@ -167,14 +167,14 @@
         "minplayers": 1,
         "maxplayers": 8,
         "description": "",
-        "image": ""
+        "image": "/images/1-YDKJ.png"
       },
       {
         "name": "Split The Room",
         "minplayers": 3,
         "maxplayers": 8,
         "description": "",
-        "image": ""
+        "image": "/images/2-STR.png"
       },
       {
         "name": "Mad Verse City",
@@ -188,7 +188,7 @@
         "minplayers": 3,
         "maxplayers": 8,
         "description": "",
-        "image": ""
+        "image": "/images/3-PS.png"
       },
       {
         "name": "Zeeple Dome",
