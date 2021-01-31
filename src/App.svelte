@@ -1,17 +1,18 @@
 <script>
-  import {} from "os";
   import partyPacks from "./data/partypacks.json";
 
   let players = 4;
   let filteredGames = [];
+  let ownedGames = [];
 
   function filterGames() {
     filteredGames = partyPacks
+      .filter((x) => (ownedGames.length ? ownedGames.includes(x.name) : true))
       .map((x) => x.games)
       .flat()
-      .filter((game) => {
-        return players >= game.minplayers && players <= game.maxplayers;
-      });
+      .filter(
+        (game) => players >= game.minplayers && players <= game.maxplayers
+      );
     return filteredGames;
   }
   filteredGames = filterGames();
@@ -23,7 +24,20 @@
 
   <div class="packs">
     {#each partyPacks as pack, i}
-      <button>{pack.name}</button>
+      <button
+        on:click={() => {
+          if (ownedGames.includes(pack.name)) {
+            let gameIndex = ownedGames.findIndex((x) => x == pack.name);
+            ownedGames.splice(gameIndex, 1);
+            ownedGames = ownedGames;
+          } else {
+            ownedGames = [...ownedGames, pack.name];
+          }
+          filteredGames = filterGames();
+        }}
+        class={`${ownedGames.includes(pack.name) ? "owned" : ""}`}
+        >{pack.name}</button
+      >
     {/each}
   </div>
   <div class="filters">
@@ -48,6 +62,7 @@
         <h3>
           {game.name}
         </h3>
+        <span> {game.minplayers}-{game.maxplayers}</span>
         <p>{game.description}</p>
       </div>
     {/each}
@@ -55,15 +70,21 @@
 </main>
 
 <style>
+  button {
+    color: white;
+    background-color: rgba(75, 75, 0, 0.25);
+  }
+  button.owned {
+    background-color: rgba(75, 75, 0, 1);
+  }
   .game {
     border: solid black 1px;
-    margin: 2px;
+    margin: 4px;
     border-radius: 3px;
-    padding: 4px;
   }
   .games {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .packs {
     display: grid;
@@ -72,7 +93,7 @@
   main {
     text-align: center;
     padding: 1em;
-    max-width: 240px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
