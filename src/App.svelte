@@ -10,9 +10,6 @@
       .map((x) => x.games)
       .flat()
       .filter((game) => {
-        // let validMin = game.minPlayers <= players;
-        // let validMax = game.maxplayers >= players;
-        // console.log(game, { minPlayers, validMin, maxPlayers, validMax });
         return players >= game.minplayers && players <= game.maxplayers;
       });
     return filteredGames;
@@ -30,7 +27,7 @@
     {/each}
   </div>
   <div class="filters">
-    Min Players
+    Players
     <input
       type="range"
       bind:value={players}
@@ -42,20 +39,25 @@
     {players}
   </div>
   <div class="games">
-    <!-- {#each partyPacks.default as pack, i}
-      {#each pack.games as game, j}
-        <div>{game.name}</div>
-      {/each}
-    {/each} -->
     {#each filteredGames as game}
-      <div>
-        {game.name}
+      <div class="game">
+        <img src={game.image || `//placehold.it/250?text=${game.name}`} />
+        <h3>
+          {game.name}
+        </h3>
+        <p>{game.description}</p>
       </div>
     {/each}
   </div>
 </main>
 
 <style>
+  .game {
+    border: solid black 1px;
+    margin: 2px;
+    border-radius: 3px;
+    padding: 4px;
+  }
   .games {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

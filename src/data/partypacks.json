@@ -3,29 +3,39 @@
     "name": "Party Pack 1",
     "games": [
       {
-        "name": "PP1 G1",
+        "name": "YOU DON’T KNOW JACK 2015",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       },
       {
-        "name": "PP1 G2",
+        "name": "Fibbage XL",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       },
       {
-        "name": "PP1 G3",
+        "name": "Drawful",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       },
       {
-        "name": "PP1 G4",
+        "name": "Word Spud",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       },
       {
-        "name": "PP1 G5",
+        "name": "Lie Swatter",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       }
     ]
   },
@@ -33,29 +43,39 @@
     "name": "Party Pack 2",
     "games": [
       {
-        "name": "PP2 G1",
+        "name": "Fibbage 2",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "The runaway hit bluffing game with over 500 brand-new questions, more than 2x the original! Plus new features, like the deFIBrillator!",
+        "image": ""
       },
       {
-        "name": "PP2 G2",
+        "name": "Earwax",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "The hear-larious sound-effects game that will leave you up to your ears in laughter! Cow moo? Huge explosion? Or tiny fart? Which to choose?",
+        "image": ""
       },
       {
-        "name": "PP2 G3",
+        "name": "Bidiots",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "The absurd art auction game where you draw right there on your phone or tablet. Outbid your opponents for weird art pieces – drawn by players themselves – and win this strangely competitive auction game! Don’t be a bidiot!",
+        "image": ""
       },
       {
-        "name": "PP2 G4",
+        "name": "Quiplash XL",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "The say-anything, gut-busting Quiplash XL, which includes everything in Quiplash, Quip Pack 1, AND over 100 brand-new prompts!",
+        "image": ""
       },
       {
-        "name": "PP2 G5",
+        "name": "Bomb Corp.",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "The bomb-defusing nailbiter of a party game! As interns at Bomb Corp., you must defuse random bombs in the office in order to keep your jobs. You’ll probably die, but it’ll be good work experience!",
+        "image": ""
       }
     ]
   },
@@ -63,29 +83,39 @@
     "name": "Party Pack 3",
     "games": [
       {
-        "name": "PP3 G1",
+        "name": "Quiplash 2",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       },
       {
-        "name": "PP3 G2",
+        "name": "Trivia Murder Party",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       },
       {
-        "name": "PP3 G3",
+        "name": "Guesspionage",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       },
       {
-        "name": "PP3 G4",
+        "name": "Tee K.O.",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       },
       {
-        "name": "PP3 G5",
+        "name": "Fakin' It",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       }
     ]
   },
@@ -93,29 +123,29 @@
     "name": "Party Pack 4",
     "games": [
       {
-        "name": "PP4 G1",
+        "name": "Fibbage 3",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 8
       },
       {
-        "name": "PP4 G2",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Survive the Internet",
+        "minplayers": 3,
+        "maxplayers": 8
       },
       {
-        "name": "PP4 G3",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Monster Seeking Monster",
+        "minplayers": 3,
+        "maxplayers": 7
       },
       {
-        "name": "PP4 G4",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Bracketeering",
+        "minplayers": 3,
+        "maxplayers": 16
       },
       {
-        "name": "PP4 G5",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Civic Doodle",
+        "minplayers": 3,
+        "maxplayers": 8
       }
     ]
   },
@@ -123,29 +153,29 @@
     "name": "Party Pack 5",
     "games": [
       {
-        "name": "PP5 G1",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "You Don't Know Jack",
+        "minplayers": 1,
+        "maxplayers": 8
       },
       {
-        "name": "PP5 G2",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Split The Room",
+        "minplayers": 3,
+        "maxplayers": 8
       },
       {
-        "name": "PP5 G3",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Mad Verse City",
+        "minplayers": 3,
+        "maxplayers": 8
       },
       {
-        "name": "PP5 G4",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Patently Stupid",
+        "minplayers": 3,
+        "maxplayers": 8
       },
       {
-        "name": "PP5 G5",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Zeeple Dome",
+        "minplayers": 1,
+        "maxplayers": 6
       }
     ]
   },
@@ -153,29 +183,31 @@
     "name": "Party Pack 6",
     "games": [
       {
-        "name": "PP6 G1",
-        "minplayers": 4,
+        "name": "Trivia Murder Party 2",
+        "minplayers": 1,
         "maxplayers": 8
       },
       {
-        "name": "PP6 G2",
-        "minplayers": 4,
+        "name": "Role Models",
+        "minplayers": 3,
+        "maxplayers": 6
+      },
+      {
+        "name": "Joke Boat",
+        "minplayers": 3,
         "maxplayers": 8
       },
       {
-        "name": "PP6 G3",
-        "minplayers": 4,
-        "maxplayers": 10
+        "name": "Dictionarium",
+        "minplayers": 3,
+        "maxplayers": 8
       },
       {
-        "name": "PP6 G4",
+        "name": "Push The Button",
         "minplayers": 4,
-        "maxplayers": 10
-      },
-      {
-        "name": "PP6 G5",
-        "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 10,
+        "description": "",
+        "image": ""
       }
     ]
   },
@@ -183,29 +215,29 @@
     "name": "Party Pack 7",
     "games": [
       {
-        "name": "PP7 G1",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Quiplash 3",
+        "minplayers": 3,
+        "maxplayers": 8
       },
       {
-        "name": "PP7 G2",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "The Devils and the Details",
+        "minplayers": 3,
+        "maxplayers": 8
       },
       {
-        "name": "PP7 G3",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Champ’d Up",
+        "minplayers": 3,
+        "maxplayers": 8
       },
       {
-        "name": "PP7 G4",
-        "minplayers": 2,
-        "maxplayers": 10
+        "name": "Talking Points",
+        "minplayers": 3,
+        "maxplayers": 8
       },
       {
-        "name": "PP7 G5",
+        "name": "Blather ‘Round",
         "minplayers": 2,
-        "maxplayers": 10
+        "maxplayers": 6
       }
     ]
   }
