@@ -56,7 +56,7 @@
     {#each filteredGames as game}
       <div class="game">
         <img
-          src={game.image || `//placehold.it/250?text=${game.name}`}
+          src={game.image || `//placehold.it/350x150?text=${game.name}`}
           alt=""
         />
         <h3>
@@ -96,17 +96,14 @@
     max-width: 100%;
     margin: 0 auto;
   }
+  img{
+    max-width: 100%;
+  }
 
   h1 {
     color: #ff3e00;
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 100;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
   }
 </style>
