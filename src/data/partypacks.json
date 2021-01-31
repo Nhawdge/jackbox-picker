@@ -4,37 +4,37 @@
     "games": [
       {
         "name": "YOU DON’T KNOW JACK 2015",
-        "minplayers": 2,
-        "maxplayers": 10,
-        "description": "",
+        "minplayers": 1,
+        "maxplayers": 4,
+        "description": "The comedy trivia sensation YOU DON’T KNOW JACK 2015 with hundreds of all-new questions.",
         "image": "/images/YDKJ2015tile.jpg"
       },
       {
         "name": "Fibbage XL",
         "minplayers": 2,
-        "maxplayers": 10,
-        "description": "",
+        "maxplayers": 8,
+        "description": "The hilarious bluffing game Fibbage XL, with over 50% more questions added to the original hit game Fibbage.",
         "image": "/images/FibbageXLtile.jpg"
       },
       {
         "name": "Drawful",
-        "minplayers": 2,
-        "maxplayers": 10,
-        "description": "",
+        "minplayers": 3,
+        "maxplayers": 8,
+        "description": "The bizarre drawing game Drawful - you draw right there on your phone or tablet (very little/no real skill required).",
         "image": "/images/Drawfultile.jpg"
       },
       {
         "name": "Word Spud",
         "minplayers": 2,
-        "maxplayers": 10,
-        "description": "",
+        "maxplayers": 8,
+        "description": "The racy-as-you-want-to-be fill-in-the-blank word game Word Spud.",
         "image": "/images/WordSpudtile.jpg"
       },
       {
         "name": "Lie Swatter",
-        "minplayers": 2,
-        "maxplayers": 10,
-        "description": "",
+        "minplayers": 1,
+        "maxplayers": 100,
+        "description": "The wacky-fact-filled Lie Swatter (1-100 players).",
         "image": "/images/LieSwattertile.jpg"
       }
     ]
@@ -45,35 +45,35 @@
       {
         "name": "Fibbage 2",
         "minplayers": 2,
-        "maxplayers": 10,
+        "maxplayers": 8,
         "description": "The runaway hit bluffing game with over 500 brand-new questions, more than 2x the original! Plus new features, like the deFIBrillator!",
         "image": "/images/Fibbage2tile.jpg"
       },
       {
         "name": "Earwax",
-        "minplayers": 2,
-        "maxplayers": 10,
+        "minplayers": 3,
+        "maxplayers": 8,
         "description": "The hear-larious sound-effects game that will leave you up to your ears in laughter! Cow moo? Huge explosion? Or tiny fart? Which to choose?",
         "image": "/images/EarwaxTile.jpg"
       },
       {
         "name": "Bidiots",
-        "minplayers": 2,
-        "maxplayers": 10,
+        "minplayers": 3,
+        "maxplayers": 6,
         "description": "The absurd art auction game where you draw right there on your phone or tablet. Outbid your opponents for weird art pieces – drawn by players themselves – and win this strangely competitive auction game! Don’t be a bidiot!",
         "image": "/images/Bidiotstile.jpg"
       },
       {
         "name": "Quiplash XL",
-        "minplayers": 2,
-        "maxplayers": 10,
+        "minplayers": 3,
+        "maxplayers": 8,
         "description": "The say-anything, gut-busting Quiplash XL, which includes everything in Quiplash, Quip Pack 1, AND over 100 brand-new prompts!",
         "image": "/images/QuiplashXLtile.jpg"
       },
       {
         "name": "Bomb Corp.",
-        "minplayers": 2,
-        "maxplayers": 10,
+        "minplayers": 1,
+        "maxplayers": 4,
         "description": "The bomb-defusing nailbiter of a party game! As interns at Bomb Corp., you must defuse random bombs in the office in order to keep your jobs. You’ll probably die, but it’ll be good work experience!",
         "image": "/images/BombCorptile.jpg"
       }
@@ -84,37 +84,37 @@
     "games": [
       {
         "name": "Quiplash 2",
-        "minplayers": 2,
-        "maxplayers": 10,
-        "description": "",
+        "minplayers": 3,
+        "maxplayers": 8,
+        "description": "The say-anything sequel. Play all new questions or make your own!",
         "image": "/images/PP3Tile_Quiplash2.jpg"
       },
       {
         "name": "Trivia Murder Party",
-        "minplayers": 2,
-        "maxplayers": 10,
-        "description": "",
+        "minplayers": 1,
+        "maxplayers": 8,
+        "description": "A deadly quiz show where you match wits with a trivia-obsessed killer.",
         "image": "/images/PP3Tile_TMP.jpg"
       },
       {
         "name": "Guesspionage",
         "minplayers": 2,
-        "maxplayers": 10,
-        "description": "",
+        "maxplayers": 8,
+        "description": "The brain-battering data-mining guessing game.",
         "image": "/images/PP3Tile_Guess.jpg"
       },
       {
         "name": "Tee K.O.",
-        "minplayers": 2,
-        "maxplayers": 10,
-        "description": "",
+        "minplayers": 3,
+        "maxplayers": 8,
+        "description": "The t-shirt slugfest where you battle your custom t-shirts to the death!",
         "image": "/images/PP3Tile_TKO.jpg"
       },
       {
         "name": "Fakin' It",
-        "minplayers": 2,
-        "maxplayers": 10,
-        "description": "",
+        "minplayers": 3,
+        "maxplayers": 6,
+        "description": "One of your friends has something to hide in this sneaky game for tricksters.",
         "image": "/images/PP3Tile_FakinIt.jpg"
       }
     ]
@@ -126,35 +126,35 @@
         "name": "Fibbage 3",
         "minplayers": 2,
         "maxplayers": 8,
-        "description": "",
+        "description": "The blanking fun sequel. Play all-new question types and the game mode Fibbage: Enough About You (3-8 players). Guess the weird facts about your friends.",
         "image": "/images/Fibbage3_EAU.png"
       },
       {
         "name": "Survive the Internet",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The web-based frame game. Twist your friends’ “online” comments in hilarious ways.",
         "image": "/images/SurviveTheInternet.jpg"
       },
       {
         "name": "Monster Seeking Monster",
         "minplayers": 3,
         "maxplayers": 7,
-        "description": "",
+        "description": "The spooky date-a-thon game. Message and date fellow monsters with special powers.",
         "image": "/images/MonsterSeekingMonster.jpg"
       },
       {
         "name": "Bracketeering",
         "minplayers": 3,
         "maxplayers": 16,
-        "description": "",
+        "description": "The deranged debate match game. Place smart bets on stupid arguments.",
         "image": "/images/Bracketeering.jpg"
       },
       {
         "name": "Civic Doodle",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The one-up art game. Compete to improve the town murals.",
         "image": "/images/CivicDoodle.jpg"
       }
     ]
@@ -166,35 +166,35 @@
         "name": "You Don't Know Jack",
         "minplayers": 1,
         "maxplayers": 8,
-        "description": "",
+        "description": "The pop-culture trivia mash-up YOU DON’T KNOW JACK: Full Stream. The classic returns, full of wild new surprises.",
         "image": "/images/1-YDKJ.png"
       },
       {
         "name": "Split The Room",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The what-if game Split the Room. Create strange and divisive hypothetical situations.",
         "image": "/images/2-STR.png"
       },
       {
         "name": "Mad Verse City",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The lyric-writing game Mad Verse City. Channel your inner MC as a rap battling robot.",
         "image": "/images/MVC-4.jpg"
       },
       {
         "name": "Patently Stupid",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The competitive drawing game Patently Stupid. Create odd inventions to solve bizarre problems.",
         "image": "/images/3-PS.png"
       },
       {
         "name": "Zeeple Dome",
         "minplayers": 1,
         "maxplayers": 6,
-        "description": "",
+        "description": "The deadliest game show in the Crab Nebula, Zeeple Dome! Fling yourself at bloodthirsty aliens to win millions of Zubabucks!",
         "image": "/images/ZD-5.jpg"
       }
     ]
@@ -206,35 +206,35 @@
         "name": "Trivia Murder Party 2",
         "minplayers": 1,
         "maxplayers": 8,
-        "description": "",
+        "description": "The popular trivia deathmatch Trivia Murder Party 2. Try to survive the bizarre new minigames.",
         "image": "/images/TMP2_tile.jpg"
       },
       {
         "name": "Role Models",
         "minplayers": 3,
         "maxplayers": 6,
-        "description": "",
+        "description": "The offbeat personality test Role Models. Find out who you really are. (Or at least what your friends think of you.)",
         "image": "/images/TJPP6_RoleModels.jpg"
       },
       {
         "name": "Joke Boat",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The comedy contest Joke Boat. Craft one-liners for a cruise ship talent show.",
         "image": "/images/TJPP6_JokeBoat.jpg"
       },
       {
         "name": "Dictionarium",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The weird word circus Dictionarium. May the funniest definition win.",
         "image": "/images/TJPP6_Dictionarium.png"
       },
       {
         "name": "Push The Button",
         "minplayers": 4,
         "maxplayers": 10,
-        "description": "",
+        "description": "The hidden identity game Push The Button. Can you discover the aliens in time?",
         "image": "/images/TJPP6_PushTheButton.jpg"
       }
     ]
@@ -246,35 +246,35 @@
         "name": "Quiplash 3",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The say-anything threequel Quiplash 3. Get big laughs answering the quirkiest prompts.",
         "image": "/images/q3_websiteTile_v1.jpg"
       },
       {
         "name": "The Devils and the Details",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The collaborative chaos game The Devils and the Details. Can you survive the daily torture of human life?",
         "image": "/images/Tile-Images.jpg"
       },
       {
         "name": "Champ’d Up",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The drawing fighting game Champ’d Up. Can you take down the heavy favorite?",
         "image": "/images/Website-Tile-Image.jpg"
       },
       {
         "name": "Talking Points",
         "minplayers": 3,
         "maxplayers": 8,
-        "description": "",
+        "description": "The on-the-spot speech game Talking Points. Just keep talking whether it makes sense or not.",
         "image": "/images/Talking-Points-Website-Tile-Image.png"
       },
       {
         "name": "Blather ‘Round",
         "minplayers": 2,
         "maxplayers": 6,
-        "description": "",
+        "description": "The pop culture guessing game Blather 'Round. It’s a good fun time experience.",
         "image": "/images/BlatherTileImage.jpg"
       }
     ]
