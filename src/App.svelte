@@ -20,8 +20,7 @@
 
 <main>
   <h1>Jackbox Game Picker</h1>
-  Games You own:
-
+  Games you own:
   <div class="packs">
     {#each partyPacks as pack, i}
       <button
@@ -82,21 +81,14 @@
     margin: 4px;
     border-radius: 3px;
   }
-  .games {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .packs {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-  }
+
   main {
     text-align: center;
     padding: 1em;
-    max-width: 100%;
+    max-width: 1000px;
     margin: 0 auto;
   }
-  img{
+  img {
     max-width: 100%;
   }
 
@@ -105,5 +97,23 @@
     text-transform: uppercase;
     font-size: 4em;
     font-weight: 100;
+  }
+
+  .packs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .games {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  @media screen and (min-width: 750px) {
+    .packs {
+      grid-template-columns: repeat(7, 1fr);
+    }
+    .games {
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 </style>
