@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Party Pack 1",
+    "games": [
+      {
+        "name": "PP1 G1",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP1 G2",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP1 G3",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP1 G4",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP1 G5",
+        "minplayers": 2,
+        "maxplayers": 10
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 2",
+    "games": [
+      {
+        "name": "PP2 G1",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP2 G2",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP2 G3",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP2 G4",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP2 G5",
+        "minplayers": 2,
+        "maxplayers": 10
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 3",
+    "games": [
+      {
+        "name": "PP3 G1",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP3 G2",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP3 G3",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP3 G4",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP3 G5",
+        "minplayers": 2,
+        "maxplayers": 10
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 4",
+    "games": [
+      {
+        "name": "PP4 G1",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP4 G2",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP4 G3",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP4 G4",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP4 G5",
+        "minplayers": 2,
+        "maxplayers": 10
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 5",
+    "games": [
+      {
+        "name": "PP5 G1",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP5 G2",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP5 G3",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP5 G4",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP5 G5",
+        "minplayers": 2,
+        "maxplayers": 10
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 6",
+    "games": [
+      {
+        "name": "PP6 G1",
+        "minplayers": 4,
+        "maxplayers": 8
+      },
+      {
+        "name": "PP6 G2",
+        "minplayers": 4,
+        "maxplayers": 8
+      },
+      {
+        "name": "PP6 G3",
+        "minplayers": 4,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP6 G4",
+        "minplayers": 4,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP6 G5",
+        "minplayers": 2,
+        "maxplayers": 10
+      }
+    ]
+  },
+  {
+    "name": "Party Pack 7",
+    "games": [
+      {
+        "name": "PP7 G1",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP7 G2",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP7 G3",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP7 G4",
+        "minplayers": 2,
+        "maxplayers": 10
+      },
+      {
+        "name": "PP7 G5",
+        "minplayers": 2,
+        "maxplayers": 10
+      }
+    ]
+  }
+]
