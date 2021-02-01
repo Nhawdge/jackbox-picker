@@ -1,6 +1,8 @@
 [
   {
     "name": "Party Pack 1",
+    "steamStore": "https://store.steampowered.com/app/331670/The_Jackbox_Party_Pack",
+    "steamAppId": "331670",
     "games": [
       {
         "name": "YOU DON’T KNOW JACK 2015",
@@ -41,6 +43,8 @@
   },
   {
     "name": "Party Pack 2",
+    "steamStore":"https://store.steampowered.com/app/397460/The_Jackbox_Party_Pack_2",
+    "steamAppId":"397460",
     "games": [
       {
         "name": "Fibbage 2",
@@ -81,6 +85,8 @@
   },
   {
     "name": "Party Pack 3",
+    "steamStore":"https://store.steampowered.com/app/434170/The_Jackbox_Party_Pack_3",
+    "steamAppId":"434170",
     "games": [
       {
         "name": "Quiplash 2",
@@ -121,6 +127,8 @@
   },
   {
     "name": "Party Pack 4",
+    "steamStore":"https://store.steampowered.com/app/610180/The_Jackbox_Party_Pack_4",
+    "steamAppId":"610180",
     "games": [
       {
         "name": "Fibbage 3",
@@ -161,6 +169,8 @@
   },
   {
     "name": "Party Pack 5",
+    "steamStore":"https://store.steampowered.com/app/774461/The_Jackbox_Party_Pack_5",
+    "steamAppId":"774461",
     "games": [
       {
         "name": "You Don't Know Jack",
@@ -201,6 +211,8 @@
   },
   {
     "name": "Party Pack 6",
+    "steamStore":"https://store.steampowered.com/app/1005300/The_Jackbox_Party_Pack_6",
+    "steamAppId":"1005300",
     "games": [
       {
         "name": "Trivia Murder Party 2",
@@ -241,6 +253,8 @@
   },
   {
     "name": "Party Pack 7",
+    "steamStore":"https://store.steampowered.com/app/1211630/The_Jackbox_Party_Pack_7",
+    "steamAppId":"1211630",
     "games": [
       {
         "name": "Quiplash 3",
