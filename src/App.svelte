@@ -4,18 +4,34 @@
   let players = 4;
   let filteredGames = [];
   let ownedGames = [];
+  let validFilters = [];
+  let tagFilters = [];
 
   function filterGames() {
     filteredGames = partyPacks
       .filter((x) => (ownedGames.length ? ownedGames.includes(x.name) : true))
       .map((x) => x.games)
       .flat()
+      .filter((game) =>
+        tagFilters.length
+          ? game.gameType.filter((x) => tagFilters.includes(x)).length
+          : true
+      )
       .filter(
         (game) => players >= game.minplayers && players <= game.maxplayers
       );
     return filteredGames;
   }
+  function getFilters(filteredGames) {
+    validFilters = Array.from(
+      new Set(filteredGames.map((x) => x.gameType).flat())
+    );
+    return validFilters;
+  }
   filteredGames = filterGames();
+  validFilters = getFilters(filteredGames);
+
+  $: tagFilters, (filteredGames = filterGames());
 </script>
 
 <main>
@@ -50,6 +66,19 @@
       on:change={() => (filteredGames = filterGames())}
     />
     {players}
+    <div class="tags">
+      {#each validFilters as filter}
+        <div>
+          <input
+            type="checkbox"
+            value={filter}
+            bind:group={tagFilters}
+            id={filter}
+          />
+          <label for={filter}> {filter} </label>
+        </div>
+      {/each}
+    </div>
   </div>
   <div class="games">
     {#each filteredGames as game}
@@ -62,6 +91,7 @@
           {game.name}
         </h3>
         <span> {game.minplayers}-{game.maxplayers}</span>
+        <span> {game.gameType} </span>
         <p>{game.description}</p>
       </div>
     {/each}
@@ -115,5 +145,23 @@
     .games {
       grid-template-columns: repeat(3, 1fr);
     }
+  }
+
+  .tags {
+    display: flex;
+    place-content: space-evenly;
+  }
+  .tags input {
+    display: none;
+  }
+
+  .tags label {
+    background-color: hsla(10, 50%, 50%);
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  input:checked + label {
+    background-color: hsla(110, 50%, 50%);
   }
 </style>
