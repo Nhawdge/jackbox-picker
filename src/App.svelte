@@ -8,6 +8,15 @@
   let tagFilters = [];
 
   function filterGames() {
+    partyPacks.forEach((pack) => {
+      pack.games.forEach((game) => {
+        console.log('g', game)
+        game['packName']=pack.name
+        game['steamStore']=pack.steamStore
+        game['steamAppId']=pack.steamAppId
+      })
+    })
+    console.log("flattened", partyPacks)
     filteredGames = partyPacks
       .filter((x) => (ownedGames.length ? ownedGames.includes(x.name) : true))
       .map((x) => x.games)
@@ -92,6 +101,7 @@
         </h3>
         <span> {game.minplayers}-{game.maxplayers}</span>
         <span> {game.gameType} </span>
+        <p><small><a href={game.steamStore} target="_blank" rel="noopener noreferer">{game.packName}</a> (<a href={`steam://run/${game.steamAppId}`}>Run</a>)</small></p>
         <p>{game.description}</p>
       </div>
     {/each}
