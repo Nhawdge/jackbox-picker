@@ -397,5 +397,62 @@
         "image": "/images/BlatherTileImage.jpg"
       }
     ]
+  },
+  {
+    "name": "Party Pack 8",
+    "steamStore":"https://store.steampowered.com/app/1211630/The_Jackbox_Party_Pack_7",
+    "steamAppId":"1211630",
+    "games": [
+      {
+        "name": "Drawful Animate",
+        "minplayers": 3,
+        "maxplayers": 8,
+        "gameType": [
+          "Drawing"
+        ],
+        "description": "It’s alive! The guessing game with terrible drawings and hilariously wrong answers makes a dynamic return. In this revamped title, players create looping, two-frame animations based on weird and random titles.",
+        "image": "/images/DrawfulAnimateLogo800x800-768x768.png"
+      },
+      {
+        "name": "Job Job",
+        "minplayers": 3,
+        "maxplayers": 8,
+        "gameType": [
+          "Words"
+        ],
+        "description": "Use other people’s words to create unique and funny answers to classic job interview questions. Go head to head to see who scores the job!?",
+        "image": "/images/JobJob_800x800-768x768.png"
+      },
+      {
+        "name": "Poll Mine",
+        "minplayers": 3,
+        "maxplayers": 8,
+        "gameType": [
+          "Social Deduction"
+        ],
+        "description": "A survey game that’s all about YOU! Split into teams and see who can escape from the witch’s lair! Players individually rank their choices to a difficult question, then must guess how the group answered as a whole. How well do you know your friends?!",
+        "image": "/images/The-Poll-Mine-Logo-800x800-transparentBG-768x768.png"
+      },
+      {
+        "name": "Weapons Drawn",
+        "minplayers": 3,
+        "maxplayers": 8,
+        "gameType": [
+          "Drawing"
+        ],
+        "description": "A social deduction game where everyone is both a murderer and a detective. Players doodle all the clues, hiding a letter from their name in the weapon drawings. Can you solve murders while trying to get away with your own?",
+        "image": "/images/WDlogo_800x800-768x768.png"
+      },
+      {
+        "name": "The Wheel of Enormous Proportions",
+        "minplayers": 2,
+        "maxplayers": 6,
+        "gameType": [
+          "Co-Op"
+        ],
+        "description": "Trivia has never been so large! A fantastic, mystical wheel challenges you with a variety of trivia prompts. Winners are awarded slices of the Wheel’s face with a chance to win big with each nail-biting spin. In the end, one player will have their most burning question answered by the great Wheel.        ",
+        "image": "/images/WheelLogo_800x800-768x768.png"
+      }
+    ]
   }
 ]
