@@ -119,10 +119,11 @@
   .game {
     border: solid black 1px;
     margin: 4px;
-    border-radius: 3px;
-    img {
-      background-color:lightgray;
-    }
+    border-radius: 3px;  
+  }
+
+  .game img {
+      background-color: lightgray;
   }
 
   main {
